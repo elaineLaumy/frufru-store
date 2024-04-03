@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-
   :root {
     --height-header: 4rem;
     --view-height: calc(100dvh - var(--height-header));
+
+    --primary: 0deg 0% 0%;
+    --primary-foreground: 0deg 0% 80%;
+    --secondary: 360deg 94% 28%;
+    --secondary-foreground: 0deg 74% 80%;
+    --muted: 31deg 27% 87%;
+    --muted-foreground: 31deg 100% 18%;
+    --background: 180deg 25% 92%;
+    --foreground: 180deg 25% 15%;
   }
 }
