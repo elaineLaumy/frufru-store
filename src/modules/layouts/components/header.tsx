@@ -11,7 +11,7 @@ export function Header() {
       <nav className="p-1 px-2 bg-secondary text-secondary-foreground w-full h-[15%] flex text-sm font-semibold justify-end items-center">
         Help
       </nav>
-      <nav className="bg-primary text-primary-foreground p-2 md:p-0 w-full h-[85%] flex flex-col gap-4 sticky top-0">
+      <nav className="z-50 bg-primary text-primary-foreground p-2 md:p-0 w-full h-[85%] flex flex-col gap-4 sticky top-0">
         <div className="hidden container md:flex justify-between items-center px-5">
           <div className="md:flex justify-center items-center h-full hidden">
             <FaStar size={30} className="text-secondary" />
@@ -73,7 +73,7 @@ function CartDialog() {
     <>
       <dialog
         ref={dialog}
-        className="p-5 bg-primary text-primary-foreground rounded-md backdrop:bg-black/50 backdrop:backdrop-blur-none"
+        className="p-5 bg-primary text-primary-foreground rounded-md backdrop:bg-black/50 backdrop:backdrop-blur-none z-50"
       >
         <div className="flex flex-col">
           tá na moda fazer modal com html puro? pq isso é um modal com html puro

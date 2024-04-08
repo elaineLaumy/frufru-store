@@ -1,18 +1,9 @@
-import { MasonryCardGrid } from '@/modules/layouts/components/masonry-card-grid';
-import { ProductCard } from '@/modules/layouts/components/product-card';
+import { ProductCardList } from '@/modules/layouts/components/product-card-list';
 
 export default function Home() {
   return (
-    <main className="container w-full min-h-screen p-4">
-      <MasonryCardGrid>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-      </MasonryCardGrid>
-    </main>
+    <>
+      <ProductCardList />
+    </>
   );
 }

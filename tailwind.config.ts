@@ -27,6 +27,7 @@ const config: Config = {
         },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--background-foreground))',
+        backgroundCard: 'hsl(var(--background-card))',
       },
     },
   },

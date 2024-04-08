@@ -11,9 +11,10 @@
     --primary-foreground: 0deg 0% 80%;
     --secondary: 360deg 94% 28%;
     --secondary-foreground: 0deg 74% 88%;
-    --muted: 31deg 27% 87%;
-    --muted-foreground: 31deg 100% 18%;
+    --muted: 31deg 27% 90%;
+    --muted-foreground: 31deg 100% 32%;
     --background: 180deg 25% 92%;
     --foreground: 180deg 25% 15%;
+    --background-card: 0deg 0% 97%;
   }
 }
